@@ -18,7 +18,7 @@ import { Autoplay, Pagination, Navigation } from "swiper/modules";
 import toast, { Toaster } from "react-hot-toast";
 
 const dmSans = DM_Sans({ subsets: ["latin"] });
-import Logo from "@/public/images/logo.png";
+import Logo from "@/../public/images/logo.png";
 const images = [
   '/images/1.jpg',
   '/images/2.jpg',
