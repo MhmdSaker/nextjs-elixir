@@ -76,7 +76,7 @@ export default function ElixirClubLanding() {
   const showToast = (message: string) => {
     toast(message, {
       duration: 3000,
-      position: "top-right",
+      position: "bottom-left",
       icon: "🎉",
     });
     if (audioRef.current) {
