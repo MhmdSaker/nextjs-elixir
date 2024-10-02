@@ -40,18 +40,6 @@ export default function ElixirClubLanding() {
     setDarkMode(isDarkMode);
     document.documentElement.classList.toggle("dark", isDarkMode);
 
-    // Smooth scroll
-    document.querySelectorAll('a[href^="#"]').forEach((anchor) => {
-      anchor.addEventListener("click", function (e) {
-        e.preventDefault();
-        const href = this.getAttribute("href");
-        if (href) {
-          document.querySelector(href)?.scrollIntoView({
-            behavior: "smooth",
-          });
-        }
-      });
-    });
 
     // Create audio element
     audioRef.current = new Audio("/notification.mp3");
